@@ -1,0 +1,18 @@
+Rendimiento de estudiantes
+
+Los datos de rendimiento de los estudiantes se obtuvieron en una encuesta sobre el curso de matemáticas de los estudiantes de la escuela secundaria.
+Consta de un conjunto de datos de 33 columnas
+que contiene características como
+
+credencial escolar
+género
+edad
+tamaño de la familia
+Educación del padre
+Educación de la madre
+Ocupación del padre y la madre
+Relación familiar
+Salud
+Calificaciones
+
+Este conjunto de datos se puede utilizar para tareas de regresión (como variable de destino Calificación ) así como de análisis. Puede contener características de categoría desequilibradas.

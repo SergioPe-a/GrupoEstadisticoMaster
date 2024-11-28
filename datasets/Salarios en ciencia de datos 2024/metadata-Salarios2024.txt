@@ -1,0 +1,26 @@
+Salarios 2024
+
+Contexto
+
+En el campo de la ciencia de datos, que evoluciona rápidamente, es fundamental que tanto los profesionales como las organizaciones comprendan las tendencias y los patrones salariales. Este conjunto de datos tiene como objetivo arrojar luz sobre el panorama de los salarios en el campo de la ciencia de datos entre 2020 y 2024. 
+Al analizar los datos salariales durante este período, los entusiastas de los datos, los investigadores y los profesionales del sector pueden obtener información valiosa sobre las tendencias salariales, las variaciones regionales y los posibles factores que influyen en la remuneración dentro de la comunidad de la ciencia de datos.
+
+Contenido
+El conjunto de datos abarca una recopilación exhaustiva de información salarial basada en la ciencia de datos, que abarca un período de cinco años, de 2020 a 2024. 
+Los datos incluyen diversos aspectos relacionados con los salarios, lo que proporciona una visión multifacética de la compensación en el campo.
+
+Estructura del conjunto de datos
+Este conjunto de datos ( data_science_salaries) que abarca desde 2020 hasta 2024 incluye las siguientes columnas:
+
+Nombre de la columna	Descripción
+job_title	El título del puesto o rol asociado con el salario informado.
+experience_level	El nivel de experiencia del individuo.
+employment_type	Indica si el empleo es a tiempo completo, a tiempo parcial, etc.
+work_models	Describe diferentes modelos de trabajo (remoto, en sitio, híbrido).
+work_year	El año específico en el que se registró la información salarial.
+employee_residence	El lugar de residencia del empleado.
+salary	El salario informado en la moneda original.
+salary_currency	La moneda en la que está denominado el salario.
+salary_in_usd	El salario convertido en dólares estadounidenses.
+company_location	La ubicación geográfica de la organización empleadora.
+company_size	El tamaño de la empresa, categorizado por el número de empleados.

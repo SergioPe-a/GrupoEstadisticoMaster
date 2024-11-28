@@ -1,0 +1,15 @@
+Eficiencia del sueño
+
+El conjunto de datos contiene información sobre un grupo de sujetos de prueba y sus patrones de sueño.
+ 
+Cada sujeto de prueba se identifica mediante un "ID de sujeto" único y también se registran su edad y sexo.
+ 
+Las funciones "Hora de acostarse" y "Hora de despertarse" indican cuándo se acuesta y se despierta cada sujeto cada día, y la función "Duración del sueño" registra la cantidad total de tiempo que cada sujeto durmió en horas.
+ 
+La función "Eficiencia del sueño" es una medida de la proporción de tiempo que se pasa en la cama que en realidad se pasa durmiendo. 
+
+Las funciones "Porcentaje de sueño REM", "Porcentaje de sueño profundo" y "Porcentaje de sueño ligero" indican la cantidad de tiempo que cada sujeto pasó en cada etapa del sueño. 
+
+La función "Despertares" registra la cantidad de veces que cada sujeto se despierta durante la noche.
+ 
+Además, el conjunto de datos incluye información sobre el consumo de cafeína y alcohol de cada sujeto en las 24 horas anteriores a la hora de acostarse, su estado de tabaquismo y su frecuencia de ejercicio.

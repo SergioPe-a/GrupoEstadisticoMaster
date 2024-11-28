@@ -1,0 +1,6 @@
+Desperdicio de alimento
+
+Acerca del conjunto de datos
+
+El desperdicio de alimentos es un gran problema climático que realmente podemos abordar. 
+Este conjunto de datos incluye, por país, estimaciones del desperdicio de alimentos en hogares, comercios minoristas y servicios de alimentación, así como otros puntos de datos.

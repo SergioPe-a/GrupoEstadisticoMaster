@@ -1,0 +1,38 @@
+Sueño, salud y estilo de vida
+
+Descripción general del conjunto de datos:
+
+El conjunto de datos de salud del sueño y estilo de vida consta de 400 filas y 13 columnas, que abarcan una amplia gama de variables relacionadas con el sueño y los hábitos diarios. Incluye detalles como género, edad, ocupación, duración del sueño, calidad del sueño, nivel de actividad física, niveles de estrés, categoría de IMC, presión arterial, frecuencia cardíaca, pasos diarios y presencia o ausencia de trastornos del sueño.
+
+Características principales del conjunto de datos:
+
+Métricas integrales del sueño: explore la duración y la calidad del sueño, y los factores que influyen en los patrones de sueño.
+Factores de estilo de vida: analice los niveles de actividad física, los niveles de estrés y las categorías de IMC.
+Salud cardiovascular: examine las mediciones de la presión arterial y la frecuencia cardíaca.
+Análisis de los trastornos del sueño: identifique la aparición de trastornos del sueño como el insomnio y la apnea del sueño.
+
+Columnas del conjunto de datos:
+
+ID de persona: un identificador para cada individuo.
+Género: el género de la persona (masculino/femenino).
+Edad: la edad de la persona en años.
+Ocupación: la ocupación o profesión de la persona.
+Duración del sueño (horas): la cantidad de horas que la persona duerme por día.
+Calidad del sueño (escala: 1-10): una calificación subjetiva de la calidad del sueño, que va del 1 al 10.
+Nivel de actividad física (minutos/día): la cantidad de minutos que la persona realiza actividad física diariamente.
+Nivel de estrés (escala: 1-10): una calificación subjetiva del nivel de estrés experimentado por la persona, que va del 1 al 10.
+Categoría de IMC: la categoría de IMC de la persona (p. ej., bajo peso, normal, sobrepeso).
+Presión arterial (sistólica/diastólica): la medición de la presión arterial de la persona, indicada como presión sistólica sobre presión diastólica.
+Frecuencia cardíaca (lpm): la frecuencia cardíaca en reposo de la persona en latidos por minuto.
+Pasos diarios: la cantidad de pasos que da la persona por día.
+Trastorno del sueño: Presencia o ausencia de un trastorno del sueño en la persona (Ninguno, Insomnio, Apnea del sueño).
+
+Detalles sobre la columna Trastorno del sueño:
+
+Ninguno: El individuo no presenta ningún trastorno específico del sueño.
+Insomnio: El individuo experimenta dificultad para conciliar el sueño o permanecer dormido, lo que lleva a un sueño inadecuado o de mala calidad.
+Apnea del sueño: el individuo sufre pausas en la respiración durante el sueño, lo que produce alteraciones en los patrones de sueño y posibles riesgos para la salud.
+
+Reconocimiento:
+
+Me gustaría aclarar que los datos que presento son sintéticos y creados por mí con fines ilustrativos.

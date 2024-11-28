@@ -1,0 +1,55 @@
+Informaciñon global obre países
+
+Descripción
+Este conjunto de datos integral proporciona una gran cantidad de información sobre todos los países del mundo y abarca una amplia gama de indicadores y atributos. Incluye estadísticas demográficas, indicadores económicos, factores ambientales, métricas de atención médica, estadísticas de educación y mucho más. 
+Con todos los países representados, este conjunto de datos ofrece una perspectiva global completa sobre varios aspectos de las naciones, lo que permite realizar análisis en profundidad y comparaciones entre países.
+
+Características principales
+
+País : Nombre del país.
+Densidad (P/Km2) : Densidad de población medida en personas por kilómetro cuadrado.
+Abreviatura : Abreviatura o código que representa al país.
+Tierras agrícolas (%) : Porcentaje de superficie de tierra utilizada para fines agrícolas.
+Superficie terrestre (Km2) : Superficie total del país en kilómetros cuadrados.
+Tamaño de las Fuerzas Armadas : Tamaño de las fuerzas armadas en el país.
+Tasa de natalidad : Número de nacimientos por cada 1.000 habitantes por año.
+Código de llamada : Código de llamada internacional del país.
+Capital/Ciudad Mayor : Nombre de la capital o ciudad mayor.
+Emisiones de CO2 : Emisiones de dióxido de carbono en toneladas.
+IPC : Índice de precios al consumidor, medida de la inflación y del poder adquisitivo.
+Variación del IPC (%) : Variación porcentual del Índice de Precios al Consumidor respecto al año anterior.
+Currency_Code : Código de moneda utilizado en el país.
+Tasa de fertilidad : Número promedio de hijos que tiene una mujer durante su vida.
+Área forestal (%) : Porcentaje de superficie terrestre cubierta por bosques.
+Precio_Gasolina : Precio de la gasolina por litro en moneda local.
+PIB : Producto Interno Bruto, valor total de los bienes y servicios producidos en el país.
+Matriculación bruta en educación primaria (%) : Tasa bruta de matriculación en educación primaria.
+Matrícula bruta en educación terciaria (%) : Tasa bruta de matriculación en educación terciaria.
+Mortalidad infantil : Número de muertes por cada 1.000 nacidos vivos antes de cumplir un año de edad.
+Ciudad más grande : Nombre de la ciudad más grande del país.
+Esperanza de vida : Número promedio de años que se espera que viva un recién nacido.
+Tasa de mortalidad materna : Número de muertes maternas por cada 100.000 nacidos vivos.
+Salario Mínimo : Nivel de salario mínimo en moneda local.
+Idioma oficial : Idioma(s) oficial(es) hablado(s) en el país.
+Gasto de bolsillo en salud (%) : Porcentaje del gasto total en salud pagado de bolsillo por los individuos.
+Médicos por cada mil : Número de médicos por cada mil personas.
+Población : Población total del país.
+Población: Participación laboral (%) : Porcentaje de la población que forma parte de la fuerza laboral.
+Ingresos fiscales (%) : Ingresos fiscales como porcentaje del PIB.
+Tasa impositiva total : Carga impositiva total como porcentaje de las ganancias comerciales.
+Tasa de desempleo : Porcentaje de la fuerza laboral que está desempleada.
+Población urbana : Porcentaje de la población que vive en zonas urbanas.
+Latitud : Coordenada de latitud de la ubicación del país.
+Longitud : Coordenada de longitud de la ubicación del país.
+
+Casos de uso potenciales
+
+Analizar la densidad de población y la superficie terrestre para estudiar los patrones de distribución espacial.
+Investigar la relación entre las tierras agrícolas y la seguridad alimentaria.
+Examinar las emisiones de dióxido de carbono y su impacto en el cambio climático.
+Explorar las correlaciones entre indicadores económicos como el PIB y diversos factores socioeconómicos.
+Investigar las tasas de matriculación educativa y sus implicaciones para el desarrollo del capital humano.
+Analizar métricas de atención médica como la mortalidad infantil y la esperanza de vida para evaluar el bienestar general.
+Estudiar la dinámica del mercado laboral a través de indicadores como la participación laboral y las tasas de desempleo.
+Investigar el papel de los impuestos y su impacto en el desarrollo económico.
+Explorar las tendencias de urbanización y sus consecuencias sociales y ambientales.

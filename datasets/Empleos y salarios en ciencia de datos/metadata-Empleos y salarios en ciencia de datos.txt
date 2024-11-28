@@ -1,0 +1,27 @@
+Empleos y salarios en la ciencia de datos
+
+Acerca del conjunto de datos
+
+work_year : año en el que se registraron los datos. Este campo indica el contexto temporal de los datos, lo que es importante para comprender las tendencias salariales a lo largo del tiempo.
+
+job_title : El título específico del puesto de trabajo, como "Científico de datos", "Ingeniero de datos" o "Analista de datos". Esta columna es fundamental para comprender la distribución salarial entre los distintos puestos especializados dentro del campo de los datos.
+
+job_category : Una clasificación del puesto de trabajo en categorías más amplias para facilitar el análisis. Esto podría incluir áreas como "Análisis de datos", "Aprendizaje automático", "Ingeniería de datos", etc.
+
+salary_currency : La moneda en la que se paga el salario, como USD, EUR, etc. Esto es importante para la conversión de moneda y para comprender el valor real del salario en un contexto global.
+
+Salario : el salario bruto anual del puesto en la moneda local. Esta cifra salarial bruta es clave para las comparaciones salariales regionales directas.
+
+salary_in_usd : El salario bruto anual convertido a dólares estadounidenses (USD). Esta conversión de moneda uniforme facilita las comparaciones y los análisis de salarios a nivel mundial.
+
+employee_residence : El país de residencia del empleado. Este dato se puede utilizar para explorar las diferencias salariales geográficas y las variaciones del costo de vida.
+
+experience_level : clasifica el nivel de experiencia profesional del empleado. Las categorías comunes pueden incluir "Nivel inicial", "Nivel medio", "Sénior" y "Ejecutivo", lo que brinda información sobre cómo la experiencia influye en el salario en los puestos relacionados con los datos.
+
+employment_type : especifica el tipo de empleo, como 'Tiempo completo', 'Tiempo parcial', 'Contrato', etc. Esto ayuda a analizar cómo los diferentes acuerdos de empleo afectan las estructuras salariales.
+
+work_setting : El entorno o lugar de trabajo, como 'Remoto', 'Presencial' o 'Híbrido'. Esta columna refleja el impacto de los entornos de trabajo en los niveles salariales en la industria de datos.
+
+company_location : El país donde se encuentra la empresa. Ayuda a analizar cómo la ubicación de la empresa afecta las estructuras salariales.
+
+company_size : El tamaño de la empresa empleadora, que suele clasificarse en pequeña (S), mediana (M) y grande (L). Esto permite analizar cómo el tamaño de la empresa influye en el salario.

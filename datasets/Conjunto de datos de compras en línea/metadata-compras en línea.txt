@@ -1,0 +1,66 @@
+Compras en línea
+
+Acerca del conjunto de datos
+
+Conjunto de datos: Conjunto de datos de compras en línea;
+
+CustomerID:Identificador único para cada cliente.
+Tipo de datos: Numérico;
+
+Género:Género del cliente (p. ej., masculino, femenino).
+Tipo de datos: Categórico;
+
+Ubicación:Información de ubicación o dirección del cliente.
+Tipo de datos: Texto;
+
+Tenure_Months:Número de meses que el cliente ha estado asociado con la plataforma.
+Tipo de datos: Numérico;
+
+Transaction_ID:Identificador único para cada transacción.
+Tipo de datos: Numérico;
+
+Transaction_Date:Fecha de la transacción.
+Tipo de datos: Fecha;
+
+Product_SKU:Identificador de Stock Keeping Unit (SKU) para el producto.
+Tipo de datos: Texto;
+
+Product_Description:Descripción del producto.
+Tipo de datos: Texto;
+
+Product_Category:Categoría a la que pertenece el producto.
+Tipo de datos: Categórico;
+
+Quantity:Cantidad del producto comprado en la transacción.
+Tipo de datos: Numérico;
+
+Avg_Price:Precio promedio del producto.
+Tipo de datos: Numérico;
+
+Delivery_Charges:Cargos asociados con la entrega del producto.
+Tipo de dato: Numérico;
+
+Coupon_Status:Estado del cupón asociado con la transacción.
+Tipo de dato: Categórico;
+
+GST:Impuesto sobre bienes y servicios asociado con la transacción.
+Tipo de dato: Numérico;
+
+Date:Fecha de la transacción (potencialmente redundante con Transaction_Date).
+Tipo de dato: Date;
+
+Offline_Spend:Monto gastado fuera de línea por el cliente.
+Tipo de dato: Numérico;
+
+Online_Spend:
+Descripción: Monto gastado en línea por el cliente.
+Tipo de dato: Numérico;
+
+Month:Mes de la transacción.
+Tipo de dato: Categórico;
+
+Coupon_Code:Código asociado con un cupón, si corresponde.
+Tipo de dato: Texto;
+
+Discount_pct:Porcentaje de descuento aplicado a la transacción.
+Tipo de dato: Numérico;
