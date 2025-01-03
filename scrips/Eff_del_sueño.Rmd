@@ -1,0 +1,105 @@
+---
+title: "Eficiencia del sueño"
+author: "Sergio Peña"
+date: "2025-01-03"
+output: html_document
+---
+# Preprocessing y estadísticas descriptivas
+
+```{r}
+# root <- ('../datasets/Estudio estadístico/Conjunto de datos sobre la eficiencia del sueño/Sleep_Efficiency.csv')
+root <- ('../datasets/Conjunto de datos sobre la eficiencia del sueño/Sleep_Efficiency.csv')
+data <- read.csv(root, header = T, sep = ',', stringsAsFactors = F)
+summary(data)
+str(data)
+names(data)
+new_names <- c('ID', 'Edad','Genero','HoraDeDormir','HoraDeDespertarse','HoraDeSueño',
+               'EficienciaDelSueño_%','SueñoRem_%','SueñoProfundo_%','SueñoLigero_%',
+               'Despertares','ConsumoCafeina_día','ConsumoAlcohol_día','Fumador', 'FrecuenciaDelEjercicio')
+colnames(data) <- new_names
+
+sapply(data, class)
+
+write.table(data, file = "data_EffSueño.csv", sep = ",", na = "NA", dec = ".", 
+            row.names = FALSE, col.names = TRUE)
+
+
+library(mice)
+
+impute_columns <- function(data, columns_to_impute, method = "pmm", m = 5) {
+  # Verificar que las columnas existen en el dataset
+  if (!all(columns_to_impute %in% colnames(data))) {
+    stop("Algunas de las columnas especificadas no existen en el dataset.")
+  }
+  # Crear un subset con las columnas seleccionadas
+  data_subset <- data[, columns_to_impute, drop = FALSE]
+  
+  # Aplicar MICE en las columnas seleccionadas
+  imputed_data <- mice(data_subset, method = method, m = m)
+  
+  # Obtener las columnas imputadas completas
+  completed_columns <- complete(imputed_data)
+  
+  # Reemplazar las columnas originales en el dataset con las imputadas
+  data[, columns_to_impute] <- completed_columns
+  
+  return(data)
+}
+names(data)
+colSums(is.na(data))
+columns_to_impute <- c('Despertares', 'ConsumoCafeina_día', 'ConsumoAlcohol_día', 'FrecuenciaDelEjercicio')
+
+datacleanNAs <- impute_columns(data, columns_to_impute)
+colSums(is.na(datacleanNAs)) #good!!
+
+numeric_columns <- sapply(datacleanNAs, is.numeric)
+summary(datacleanNAs[, numeric_columns])
+
+categorical_columns <- sapply(datacleanNAs, is.character)
+lapply(datacleanNAs[, categorical_columns], table)
+
+original_par <- par(mfrow = c(1,1))
+#plot(datacleanNAs[, 1:15])
+library(psych)
+par(original_par)
+pairs.panels(datacleanNAs,
+             method = 'spearman',
+             density = T,
+             ellipses = F,
+             smooth = T
+             )
+numeric_data <- datacleanNAs[, sapply(datacleanNAs[, 1:15], is.numeric)]
+for (col in colnames(numeric_data)) {
+  boxplot(numeric_data[[col]],
+       main = paste("Distribución de", col), 
+       col = 'lightblue',
+       xlab = col
+     )
+}
+for (col in colnames(numeric_data)) {
+  hist(numeric_data[[col]],
+       main = paste("Frecuencia de", col), 
+       col = 'lightblue',
+       xlab = col
+     )
+}
+```
+
+# Árbol de decisión
+
+```{r}
+
+```
+
+# PCA
+
+```{r}
+
+```
+
+# Clustering
+
+```{r}
+
+```
+
